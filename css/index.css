@@ -124,7 +124,7 @@ table {
 }
 header {
   display: flex;
-  background-image: url(./img/stroller-park.jpg);
+  background-image: url(/img/stroller-park.jpg);
   background-size: cover;
   z-index: auto;
   background-position: center;
