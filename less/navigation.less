@@ -1,32 +1,53 @@
+
+
 header {
   display: flex;
-  justify-content: center;
-  align-content: center;
-  border: 1px solid black;
+    background-image: url(/img/stroller-park.jpg);
+    background-size: cover;
+    z-index: auto;
+    background-position: center;
+    justify-content: space-around;
 
-
-  // width: 95%;
 
       img#nav-icon{
         display: flex;
         justify-content: center;
-        align-content: center;
         width:3rem;
         height: 3rem;
-      }
+
+    }
 
       nav.navigation {
       display:flex;
-      justify-content: flex-end;
+      background-color: rgba(0,0,0,0.8);
+      border: 1px solid black;
+      justify-content: space-around;
+      align-items: center;
+      align-content: center;
 
         a.nav-links {
-          display: inline-flex;
+          display: flex;
           text-decoration: none;
           color: steelblue !important;
-          align-items: flex-end;
-          justify-content: space-between;
+
+        &:hover{
+          color:#5bc0de !important;
+        }
 
         }
       }
-
-  }
+      }
+      div.hero-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        h2 {
+          font-family: Domine;
+          font-weight: lighter;
+        }
+        h4 {
+          font-family: Domine;
+          font-weight: lighter;
+        }
+      }
