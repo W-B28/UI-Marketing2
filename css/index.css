@@ -1,5 +1,5 @@
 div.container {
-  background: rgba(100, 134, 193, 0.2);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 html,
 body,
@@ -124,9 +124,9 @@ table {
 }
 header {
   display: flex;
-  background-image: url('../img/stroller-park.jpg');
+  background-image: url('../img/mickey-mouse.jpg');
   background-size: cover;
-  z-index: auto;
+  z-index: -1;
   background-position: center;
   justify-content: space-around;
 }
@@ -143,10 +143,12 @@ header nav.navigation {
   justify-content: space-around;
   align-items: center;
   align-content: center;
+  padding: 1.25%;
 }
 header nav.navigation a.nav-links {
   display: flex;
   text-decoration: none;
+  font-size: 1.3rem;
   color: steelblue !important;
 }
 header nav.navigation a.nav-links:hover {
@@ -165,4 +167,26 @@ div.hero-text h2 {
 div.hero-text h4 {
   font-family: Domine;
   font-weight: lighter;
+}
+div.headlines {
+  color: #1d83c1 !important;
+}
+div.headlines h2 {
+  font-weight: bolder;
+}
+div.headlines h3 {
+  font-style: italic;
+}
+div.row .card {
+  border: none;
+  padding-bottom: 3rem;
+}
+div.row .card button {
+  color: white;
+  background-color: #1d83c1 !important;
+  border-radius: 5%;
+  padding: 5px;
+}
+div.row .card button:hover {
+  background-color: #5bc0de !important;
 }

@@ -1,50 +1,77 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!--Styles & Fonts  -->
-    <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Acme&display=swap" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Domine&display=swap" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <!--Styles & Fonts  -->
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Acme&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Domine&display=swap" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 
-    <title>Disney Parents</title>
+  <title>Disney Parents</title>
 
-  </head
-  <body>
-    <!--Page Container  -->
-    <div class="container">
-<!--Navigation  -->
-<header>
-    <div id="hero-image" class="hero vh-100" >
-  <nav class="navigation">
-      <a href="#">
-        <img id="nav-icon" class="stroller-icon text-center"src="./img/logo-image.png" alt="Stroller icon" />
-      </a>
-        <a class="nav-links ml-5" href="#">Log In</a>
-        <a class="nav-links mr-1" href="#">Meet the Team</a>
+</head>
+<body>
+  <!--Page Container  -->
+  <div class="container-fluid">
+    <!--Navigation  -->
+    <header>
+      <div id="hero-image" class="hero vh-100" >
+        <nav class="navigation">
+          <a href="index.html">
+            <img id="nav-icon" class="stroller-icon text-center"src="./img/logo-image.png" alt="Stroller icon" />
+          </a>
+          <a class="nav-links ml-5" href="#">Log In</a>
+          <a class="nav-links mr-1" href="#">Meet the Team</a>
 
-      </nav>
-  </header>
-      <div class="hero-text">
-        <h2>Disney Parents</h2>
-        <h4>Less Worry, More Fun!</h4>
-        <button type="button" class="btn btn-outline-info">Sign-Up</button>
+        </nav>
+      </header>
+      <!-- <div class="hero-text">
+      <h2>Disney Parents</h2>
+      <h4>Less Worry, More Fun!</h4>
+    </div>
+  </div> -->
+  <div class="headlines text-center pt-4">
+    <h2>Stroller Rentals for Disney Parents</h2>
+    <h3> More Fun! Less Worry.</h3>
+  </div>
+
+  <div class="row">
+
+    <div class="col-sm-6">
+      <div class="card pt-5">
+        <div class="card-body text-center">
+          <img src="./img/check-circle.svg" class="card-img" style="width: 8rem; height: 8rem;"alt="Sign-in">
+          <h5 class="card-title pt-2">I Am Picking Up</h5>
+          <p class="card-text">I wish to locate and pickup my stroller.</p>
+          <button>Click to Pick Up</button>
+        </div>
       </div>
     </div>
+    <div class="col-sm-6">
+      <div class="card pt-5">
+        <div class="card-body text-center ">
+          <img src="./img/times-circle.svg" class="card-img" style="width: 8rem; height: 8rem;" alt="Sign-out">
+          <h5 class="card-title pt-2">I Am Dropping Off</h5>
+          <p class="card-text">I wish to drop-off or give-up my stroller.</p>
+          <button>Click to Drop Off</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
 
 
-    <!--Script Tags-->
+  <!--Script Tags-->
   <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
-  </html>
+</body>
+</html>
