@@ -143,7 +143,7 @@ header nav.navigation {
   justify-content: space-around;
   align-items: center;
   align-content: center;
-  padding: 1.25%;
+  padding: 2% 5%;
 }
 header nav.navigation a.nav-links {
   display: flex;
@@ -178,6 +178,7 @@ div.headlines {
   color: #1d83c1 !important;
 }
 div.headlines h1 {
+  color: black !important;
   font-weight: bolder;
 }
 div.headlines h3 {
@@ -197,4 +198,25 @@ div.row .card button {
 }
 div.row .card button:hover {
   background-color: #5bc0de !important;
+}
+section.team-intro {
+  color: white;
+  background-color: #1d83c1 !important;
+}
+section.team-intro p {
+  padding: 0% 8%;
+  font-size: 1.2rem;
+  letter-spacing: 0.05em;
+}
+h5.card-title {
+  text-align: center;
+}
+p.card-text {
+  text-align: center;
+}
+div.card-footer {
+  text-align: center;
+}
+div.card-footer img#github-icon {
+  height: 4rem;
 }
