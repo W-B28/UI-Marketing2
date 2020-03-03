@@ -168,6 +168,12 @@ div.hero-text h4 {
   font-family: Domine;
   font-weight: lighter;
 }
+footer {
+  color: white !important;
+}
+footer button.btn .btn-danger {
+  padding-left: 3rem;
+}
 div.headlines {
   color: #1d83c1 !important;
 }
@@ -185,7 +191,9 @@ div.row .card button {
   color: white;
   background-color: #1d83c1 !important;
   border-radius: 5%;
-  padding: 5px;
+  padding: 8px;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 div.row .card button:hover {
   background-color: #5bc0de !important;
