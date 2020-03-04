@@ -148,7 +148,7 @@ header nav.navigation {
 header nav.navigation a.nav-links {
   display: flex;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: steelblue !important;
 }
 header nav.navigation a.nav-links:hover {
@@ -169,7 +169,7 @@ div.hero-text h4 {
   font-weight: lighter;
 }
 footer {
-  color: white !important;
+  color: #1d83c1 !important;
 }
 footer button.btn .btn-danger {
   padding-left: 3rem;
@@ -208,15 +208,17 @@ section.team-intro p {
   font-size: 1.2rem;
   letter-spacing: 0.05em;
 }
-h5.card-title {
+h4.card-title {
   text-align: center;
 }
 p.card-text {
   text-align: center;
+  font-size: 1.5em;
+  font-style: oblique;
 }
 div.card-footer {
   text-align: center;
 }
 div.card-footer img#github-icon {
-  height: 4rem;
+  height: 5rem;
 }
