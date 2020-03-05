@@ -154,6 +154,9 @@ header nav.navigation a.nav-links {
 header nav.navigation a.nav-links:hover {
   color: #5bc0de !important;
 }
+header nav.navigation a#dis-par {
+  color: rgba(248, 199, 27, 0.95) !important;
+}
 div.hero-text {
   display: flex;
   flex-direction: column;
@@ -171,6 +174,9 @@ div.hero-text h4 {
 footer {
   color: #1d83c1 !important;
 }
+footer h5.footer-headline {
+  font-style: oblique;
+}
 footer button.btn .btn-danger {
   padding-left: 3rem;
 }
@@ -178,7 +184,7 @@ div.headlines {
   color: #1d83c1 !important;
 }
 div.headlines h1 {
-  color: black !important;
+  color: black!important;
   font-weight: bolder;
 }
 div.headlines h3 {
